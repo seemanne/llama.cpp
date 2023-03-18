@@ -12,9 +12,11 @@ To use llamacpypy, first install it using pip:
 
    (.venv) $ pip install llamacpypy
 
-Architecture
+Architecture basics
 ----------------
 
+Llamacpypy is built in an object oriented manner. The main feature is the Llama class. 
+The idea is that the library should provide the opportunity to run inference in web apis etc. This means that the class can be initialized without loading the model into memory.
 
 
 .. autofunction:: lumache.get_random_ingredients
