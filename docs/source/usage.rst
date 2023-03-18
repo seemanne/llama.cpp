@@ -63,9 +63,9 @@ Llama class
 
 For example:
 
->>>from llamacpypy import Llama
->>>llama = Llama('models/7B/ggml-model-q4_0.bin')
->>>print(llama.generate("This is the weather report, we are reporting a clown fiesta happening at backer street. The clowns "))
+>>> from llamacpypy import Llama
+>>> llama = Llama('models/7B/ggml-model-q4_0.bin')
+>>> print(llama.generate("This is the weather report, we are reporting a clown fiesta happening at backer street. The clowns "))
 This is the weather report, we are reporting a clown fiesta happening at backer street. The clowns 1st of July parade was going to be in their own neighborhood but they just couldn't contain themselves;
 They decided it would look better and probably have more fun if all went into one area which meant that the whole town had to shut down for a little while as all roads were blocked. At least traffic wasn’t too bad today because most of people are out shopping, but I did see some shoppers in their car driving away from Backer street with “clowns” on wheels outside their windows…
 The kids lined up along the route and waited for the parade to pass by
