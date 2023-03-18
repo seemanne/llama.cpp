@@ -22,7 +22,7 @@ Llama class
 ----------------
 
 
-.. autofunction:: llamacpypy.Llama
+.. autoclass:: llamacpypy.Llama
 
 
 
