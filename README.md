@@ -11,6 +11,12 @@ pip install llamacpypy
 ```
 Please write an issue if something doesn't work.
 
+# Docs
+
+Docs can be found on [read the docs](https://llamacpypy.readthedocs.io/en/latest/).
+
+There is also a basic usage demo at the bottom of the readme.
+
 # Building by hand
 
 Atm this is all very raw so it will require some work on the users part.
