@@ -5,6 +5,14 @@ This allows serving llama using libraries such as fastAPI using the optimized an
 
 # Installation
 
+The library has been pushed to [pypi](https://pypi.org/project/llamacpypy/), you should be able to install it using 
+```
+pip install llamacpypy
+```
+Please write an issue if something doesn't work.
+
+# Building by hand
+
 Atm this is all very raw so it will require some work on the users part.
 
 ### Clone the repo and pull the external repo for pybind11
