@@ -26,8 +26,6 @@ Llama class
 
 
 
-.. autoexception:: lumache.InvalidKindError
-
 For example:
 
 >>> import lumache
