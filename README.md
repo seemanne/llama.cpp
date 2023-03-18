@@ -68,4 +68,4 @@ The kids lined up along the route and waited for the parade to pass by
 # Implementation details
 
 This python module is mainly a wrapper around the `llama` class in `src/inference.cpp`. As such, any changes should be done in there. 
-As the llamacpp code is mostly contained in `main.cpp` which doesn't expose a good api, this repo will have to be manually patched on a need-be basis. Changes to `ggml` should not be a problem. Fixing the api on the main repo would allow this to be set up as a downstream fork rather than the weird sidekick repo it currently is.
+As the llamacpp code is mostly contained in `main.cpp` which doesn't expose a good api, this repo will have to be manually patched on a need-be basis. Changes to `ggml` should not be a problem.
