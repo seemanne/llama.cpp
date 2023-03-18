@@ -18,12 +18,13 @@ Architecture basics
 Llamacpypy is built in an object oriented manner. The main feature is the Llama class. 
 The idea is that the library should provide the opportunity to run inference in web apis etc. This means that the class can be initialized without loading the model into memory.
 
+Llama class
+----------------
 
-.. autofunction:: lumache.get_random_ingredients
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+.. autofunction:: llamacpypy.Llama
+
+
 
 .. autoexception:: lumache.InvalidKindError
 
