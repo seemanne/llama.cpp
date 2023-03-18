@@ -21,8 +21,20 @@ The idea is that the library should provide the opportunity to run inference in 
 Llama class
 ----------------
 
+.. py:class:: llamacpypy.Llama
+   The main model class
+
+   :param model_name: Path to model binary
+   :type model_name: str
+   :param model_params_dict: Optional dict for model configuration, see llamacpypy.DEFAULT_PARAMS
+   :type model_params_dict: dict
+   :param warm_start: Whether to load to model into memory at initialization
+   :type warm_start: bool
+
 
 .. autoclass:: llamacpypy.Llama
+
+   :members:
 
 
 
